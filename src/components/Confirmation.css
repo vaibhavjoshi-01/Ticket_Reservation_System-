@@ -1,0 +1,98 @@
+.div-body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-image: url("./src/photo1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.confirmation-page {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 24px;
+  border-radius: 8px;
+  background: #f9f9f9;
+  text-align: center;
+  box-shadow: 0 2px 8px #0001;
+}
+
+.confirmation-title {
+  color: #27ae60;
+  margin-bottom: 20px;
+}
+
+.confirmation-details {
+  width:400px;
+  height: 100px;
+  margin: 20px 0;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.confirmation-btn {
+  background: #e50914;
+  color: #fff;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background 0.2s;
+}
+
+.confirmation-btn:hover {
+  background: #ff0f1a;
+}
+
+.confirmation-profile-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 10;
+  padding: 10px;
+}
+
+.confirmation-profile-details {
+  background: #f3eeee;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 15px;
+  color: #222;
+  font-weight: 500;
+}
+
+.confirmation-profile-label {
+  color: #e50914;
+  font-weight: bold;
+  margin-right: 6px;
+}
+
+.confirmation-profile-email {
+  margin-left: 12px;
+  color: #888;
+}
+
+.confirmation-logout-btn {
+  padding: 6px 14px;
+  border-radius: 6px;
+  border: none;
+  background: #EB4E62;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.confirmation-logout-btn:hover {
+  background: #ff0f1a;
+} 

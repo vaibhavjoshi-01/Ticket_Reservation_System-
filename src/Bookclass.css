@@ -1,0 +1,109 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.body{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
+
+.nav{
+    display: flex;
+    border-bottom:1px solid;
+    height: 100px;
+    box-shadow: 1px 1px 3px;
+    position:fixed;
+    top: 0;
+    background-color: white;
+    justify-content: space-between;
+    z-index: 1;
+    width:100%;
+}   
+
+.Profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+}
+
+.Logo img{
+    height: 90px;
+    width: 200px;
+    margin:10px;
+}
+
+.Image img{
+    height: 60px;
+    width:60px;
+    border:1px solid;
+    border-radius: 50%;
+}
+
+main{
+    margin-top: 120px;
+}
+
+.Booking_box{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Div-BOX{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    transition: transform 0.3s ease;
+}
+
+.Row{
+    display: flex;
+}
+
+.box1{
+    border:1px solid;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    display:flex;
+    flex-direction: column;
+    margin:10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    transition: transform 0.3s ease;
+}
+
+.box1 img{
+    height: 150px;
+    width: 150px;
+}
+
+.box1:hover{
+    transform: translateY(-5px);
+}
+
+.start{
+    font-size: 30px;
+    padding:10px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px;
+    line-height: 30px;
+    position: relative;
+    top: 20%;
+}
